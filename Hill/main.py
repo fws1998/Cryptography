@@ -4,8 +4,8 @@ import matrix
 import break_key
 import Hill
 
-plain_text = "XY[LER5HI;:LMOPQR12531SBJ"
-chiper = "[WQ:9B0A12531CUQ<ANY1IMTD"
+plain_text = "XY[LER5HI;:LMOPQR12532SBJ"
+chiper = "[WQ:9B0A12532CUQ<ANY1IMTD"
 
 plain_matrix = matrix.text_to_number(plain_text, Hill.dict, 5)
 chiper_matrix = matrix.text_to_number(chiper, Hill.dict, 5)
