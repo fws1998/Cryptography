@@ -127,5 +127,5 @@ def decrypt(chiper_text, key):
 
 text = "0ANJA, SCDOP, 7A4R8, 2YQR[, N11Z;, AXCJN, V9<R0, AZXUO, [06;;, 2U4;Z, XWKW:, V2BMV, :9264, :DGOP, JSB=9, L9:EF"
 list1 = text.split(", ")
-'''for i in list1:
-    decrypt(i, decrypt_key)'''
+for i in list1:
+    decrypt(i, decrypt_key)
